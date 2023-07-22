@@ -7,4 +7,8 @@ app.get("/", (req, res) => {
   res.send({ name: "saim", message: "hello london 10" });
 });
 
+app.get("/cyf", (req, res) => {
+  res.send("cyf london 10")
+})
+
 app.listen(port);
